@@ -25,7 +25,7 @@ cd Desafio_LLMs
 ```
 
 2. Configure as chaves de API:
-   - Crie um arquivo `.env` na raiz do projeto e adicione suas chaves de API:
+   - No arquivo`.env_example`adicione suas chaves de API:
 
 ```bash
 GEMINI_API_KEY=sua_chave_gemini_aqui
@@ -33,8 +33,6 @@ DEEPSEEK_API_KEY=sua_chave_deepseek_aqui
 DOLPHIN_API_KEY=sua_chave_dolphin_aqui
 MISTRAL_API_KEY=sua_chave_mistral_aqui
 ```
-
-3. Substitua as chaves de API nos arquivos `obter_respostas.py`, `comparacao_pelo_mistral.py`, `analise_gemini.py`, `analise_dolphin.py` e `analise_deepseek.py` pelas suas chaves reais.
 
 ### Execução do Projeto
 
